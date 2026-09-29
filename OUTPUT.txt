@@ -1,0 +1,366 @@
+PS C:\Users\dell i5 10thgen\Desktop\Deobfuscator-Luraph-V15> Select-String -Path "C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau" -Pattern "luraph_runtime1|luraph_runtime2|buffer.create"
+
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:3:local function
+luraph_runtime1(...)
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:9:local function
+luraph_runtime2(...)
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:357:
+luraph_runtime1(table.pack(nil, table.pack(nil, nil, nil, nil, nil, nil, nil, table.pack(nil, table.pack(nil, nil,
+nil, table.pack(nil, --[[?NewTable]], --[[?NewTable]], table.pack(34, 112, 76, 34, 33, 63, 145, 76, 34, 112, 112, 166,
+34, 160, 34, 34, 85, 34, 124, 73, 73, 34, 76, 34, 34, 76, 34, 63, 34, 152, 216, 131, 176, 164, 111, 34, 152, 216, 131,
+176, 164, 152, 200, 111, 34, 85, 34), 0, table.pack(nil, nil, 0, nil, nil, nil, nil, 0, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, 0, nil, nil, 0, nil, nil, nil, nil, nil, nil, 2, nil, 2, nil, nil, nil, nil,
+2, nil, nil, 2, 2), table.pack(0, 44, 5, 0, 88, 0, 0, 1, 0, 44, 44, 5, 0, 1, 0, 0, 4, 0, 0, 12, 25, 0, 1, 0, 0, 2, 0,
+0, 0, 5, 137, 6, 138, 232, 3, 0, 5, 64, 7, 184, 160, 6, 7, 3, 0, 4, 0), table.pack(18, 1, 25, 45, 216, 4, 0, 25, 24,
+1, 2, 6, 16, 2, 27, 22, 4, 36, 0, 3, 4, 7, 25, 1, 25, 25, 9, 2, 22, 1, 223, 176, 44, 135, 44, 15, 1, 132, 223, 44,
+209, 2, 44, 44, 7, 4, 29), table.pack(0, 5, 29, 0, 200, 5, 5, 13, 0, 5, 6, 36, 0, 22, 0, 0, 3, 0, 2, 0, 0, 0, 5, 0, 0,
+13, 0, 1, 0, 6, 175, 1, 55, 22, 3, 0, 7, 244, 1, 50, 194, 7, 2, 3, 0, 3, 0), 9, table.pack(nil, 2, nil, nil, nil, nil,
+nil, nil, nil, 2, 2, nil, nil, nil, nil, nil, nil, nil, nil, 1, 0)), table.pack(nil, --[[?NewTable]], --[[?NewTable]],
+table.pack(34, 47, 34, 145, 46, 135, 82, 46, 46, 152, 34, 183, 124, 115, 34, 152, 145, 46, 135, 85, 34, 175, 164, 34,
+175, 164, 34, 19, 135, 121, 112, 34, 121, 148, 115, 34), 0, table.pack(nil, nil, nil, nil, nil, 2, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, 2, nil, nil, nil, nil, nil, nil, nil, nil, 1, 2), table.pack(0, 3, 0, 0, 12,
+4, 4, 12, 12, 6, 0, 178, 0, 3, 0, 5, 0, 12, 4, 5, 0, 25, 4, 0, 12, 236, 0, 5, 5, 4, 12, 0, 1, 5, 5, 0), table.pack(12,
+0, 21, 0, 2, 44, 4, 3, 2, 5, 27, 394, 0, 0, 4, 4, 0, 2, 44, 4, 32, 5, 9, 3, 5, 102, 1, 12, 44, 5, 4, 15, 5, 5, 0, 24),
+table.pack(0, 5, 0, 5, 4, 4, 1, 5, 6, 5, 0, 338, 3, 17, 0, 5, 5, 4, 4, 4, 0, 168, 125, 0, 250, 173, 0, 5, 5, 4, 5, 0,
+5, 4, 1, 0), 8, table.pack(nil, nil, nil, nil, 1, nil, nil, 1, 1, nil, nil, nil, nil, nil, nil, nil, nil, 1, nil, nil,
+nil, 0, nil, nil, 1, nil, nil, nil, nil, nil, 1)), table.pack(nil, --[[?NewTable]], table.pack(table.pack(nil, 1, 1),
+table.pack(nil, 4, 1), table.pack(nil, 5, 1)), table.pack(34, 104, 73, 147, 184, 63, 34, 85, 184, 63, 73, 34, 184,
+184, 175, 164, 34, 45, 111, 85, 184, 63, 73, 45, 34, 85, 145, 73, 45, 94, 97, 92, 42, 164, 184, 63, 73, 45, 111, 34,
+34), 0, table.pack(nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 256, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 16777216, nil, nil, nil, nil, nil, 65536), table.pack(0,
+239, 87, 5, 5, 0, 0, 5, 6, 0, 123, 0, 1, 2, 12, 107, 0, 0, 6, 5, 6, 0, 46, 0, 0, 5, 0, 608, 0, 60, 241, 5, 33, 57, 6,
+0, 777, 0, 6, 0, 0), table.pack(40, 216, 4, 4, 0, 4, 27, 5, 0, 2, 8, 17, 0, 0, 3, 193, 2, 0, 27, 5, 0, 1, 8, 0, 25, 5,
+0, 7, 0, 168, 41, 210, 257, 57, 0, 3, 8, 0, 739, 7, 12), table.pack(0, 239, 0, 1, 2, 6, 0, 6, 2, 7, 0, 0, 0, 1, 87,
+109, 0, 6, 6, 6, 2, 7, 0, 6, 0, 6, 5, 0, 5, 5, 228, 147, 30, 80, 2, 7, 0, 6, 6, 0, 0), 9, table.pack(nil, nil, 4, nil,
+nil, nil, nil, nil, nil, nil, 16, nil, nil, nil, 1, nil, nil, nil, nil, nil, nil, nil, 8, nil, nil, nil, nil, 64, nil,
+nil, nil, nil, nil, nil, nil, nil, 32)), table.pack(nil, table.pack(nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 0), table.pack(table.pack(nil, 7, 1),
+table.pack(nil, 6, 1)), table.pack(34, 111, 85, 184, 34, 94, 97, 92, 42, 164, 200, 34, 148, 73, 184, 63, 73, 73, 53,
+34, 53, 184, 63, 73, 34, 46, 135, 170, 216, 131, 176, 164, 34, 45, 135, 201, 48, 34, 94, 97, 92, 42, 164, 145, 63,
+175, 164, 73, 34, 125, 115, 34, 145, 48, 34, 48, 34, 85, 170, 145, 73, 73, 34, 47, 34, 184, 64, 184, 64, 34, 111, 200,
+34), 0, table.pack(nil, 4294967296, nil, nil, nil, nil, nil, nil, 1, nil, 0, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, 2, nil, nil, nil, 4503599627370496, nil, nil, nil, 1, nil, 0, nil, nil, nil, nil,
+0, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 0, nil, 2047, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, 0, 0), table.pack(0, 4, 4, 5, 0, 100, 24, 6, 188, 17, 7, 0, 384, 12, 4, 0, 12, 68, 4, 0, 4,
+6, 0, 777, 0, 468, 7, 7, 62, 4, 202, 15, 0, 0, 6, 6, 55, 0, 200, 175, 6, 210, 29, 0, 0, 414, 78, 131, 0, 4, 7, 0, 0,
+60, 0, 25, 0, 8, 7, 0, 12, 25, 0, 52, 0, 1, 0, 2, 0, 0, 6, 7, 0), table.pack(65, 11, 4, 0, 44, 139, 83, 178, 12, 6,
+25, 63, 67, 3, 0, 2, 6, 7, 4, 1, 5, 0, 2, 8, 33, 5, 44, 6, 233, 64, 786, 134, 57, 0, 12, 0, 25, 53, 18, 180, 98, 25,
+94, 0, 2, 7, 137, 8, 20, 7, 0, 5, 0, 25, 38, 377, 49, 3, 7, 0, 5, 3, 25, 0, 70, 0, 0, 0, 0, 13, 25, 25, 52),
+table.pack(0, 4, 1, 1, 0, 7, 30, 60, 53, 197, 7, 0, 103, 0, 1, 5, 0, 0, 0, 0, 0, 1, 7, 0, 0, 7, 7, 7, 216, 8, 40, 154,
+0, 6, 6, 6, 5, 0, 7, 80, 137, 52, 112, 7, 6, 107, 59, 0, 0, 25, 63, 0, 7, 4, 0, 5, 0, 8, 8, 7, 0, 0, 0, 7, 0, 0, 1, 0,
+2, 0, 7, 7, 0), 10, table.pack(nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1, nil, nil, 1, 20,
+nil, nil, nil, nil, nil, 32, nil, 1023, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, 21, nil, 31, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1, 0)), table.pack(nil,
+--[[?NewTable]], table.pack(table.pack(nil, 7, 1), table.pack(nil, 5, 1), table.pack(nil, 8, 1), table.pack(nil, 6,
+1)), table.pack(34, 73, 184, 64, 34, 198, 184, 184, 34, 181, 184, 184, 34, 198, 184, 64, 184, 34, 64, 115, 34, 34,
+184, 64, 34, 64, 175, 164, 25, 180, 64, 184, 147, 188, 1, 184, 34, 34, 128, 34, 184, 147, 188, 184, 34, 184, 6, 71,
+216, 192, 3, 132, 11, 34, 181, 73, 184, 34, 73, 73, 73, 25, 184, 6, 71, 216, 192, 3, 132, 11, 213, 47, 34, 184, 64,
+115, 34, 34, 128, 34, 73, 25, 184, 184, 64, 184, 34, 64, 184, 147, 90, 184, 184, 6, 71, 216, 192, 3, 132, 11, 34, 147,
+188, 34, 128, 34, 34, 181, 34, 64, 184, 147, 108, 198, 34, 147, 188, 198, 34, 181, 34, 31, 73, 73, 34, 184, 64, 184,
+147, 188, 198, 34, 128, 34, 184, 184, 6, 71, 216, 192, 3, 132, 11, 184, 147, 188, 184, 184, 64, 184, 34, 73, 25), 0,
+--[[?NewTable]], table.pack(0, 12, 2, 0, 0, 15, 14, 15, 0, 0, 1, 2, 0, 15, 14, 0, 15, 0, 0, 15, 0, 0, 14, 0, 0, 0, 12,
+60, 104, 59, 0, 16, 0, 0, 15, 16, 0, 0, 6, 0, 12, 0, 0, 11, 0, 15, 65, 150, 122, 179, 118, 231, 224, 0, 0, 12, 7, 0,
+25, 241, 12, 132, 15, 166, 194, 47, 44, 243, 184, 149, 5, 13, 0, 14, 0, 14, 0, 0, 1, 0, 12, 38, 15, 16, 0, 17, 0, 0,
+3, 0, 1, 10, 11, 219, 220, 214, 96, 122, 69, 183, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 17, 0, 0, 15, 0, 0, 0, 11, 0, 0, 0, 0,
+25, 241, 0, 12, 0, 13, 0, 0, 11, 0, 10, 0, 10, 11, 169, 114, 34, 43, 130, 130, 133, 12, 0, 0, 11, 12, 0, 13, 0, 12,
+78), table.pack(106, 1, 0, 0, 151, 5, 0, 0, 30, 0, 0, 0, 87, 5, 0, 0, 0, 18, 0, 0, 45, 9, 0, 0, 62, 0, 8, 20, 6, 282,
+0, 0, 1, 14, 1, 0, 109, 82, 0, 77, 0, 1, 10, 0, 125, 0, 89, 185, 159, 154, 241, 247, 23, 5, 0, 6, 0, 25, 10, 11, 12,
+10, 0, 242, 124, 26, 228, 39, 4, 75, 15, 0, 37, 0, 0, 0, 22, 54, 0, 21, 8, 6, 0, 0, 0, 0, 101, 0, 0, 1, 0, 0, 0, 92,
+16, 217, 143, 56, 144, 175, 40, 1, 15, 13, 0, 119, 1, 0, 104, 0, 0, 1, 0, 5, 132, 1, 11, 5, 91, 0, 121, 5, 6, 7, 80,
+0, 0, 0, 1, 11, 5, 38, 0, 107, 0, 0, 185, 177, 133, 8, 171, 8, 219, 0, 1, 10, 0, 0, 0, 0, 115, 3, 1), table.pack(0, 0,
+0, 2, 0, 14, 3, 2, 0, 0, 1, 2, 0, 14, 0, 14, 2, 0, 15, 5, 0, 0, 0, 14, 0, 7, 51, 225, 0, 171, 15, 0, 16, 0, 0, 2, 0,
+0, 134, 0, 0, 12, 0, 1, 0, 2, 15, 43, 233, 26, 104, 119, 157, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15, 191, 16, 64, 45, 120,
+74, 15, 15, 0, 2, 14, 62, 0, 0, 121, 0, 0, 0, 1, 2, 16, 2, 0, 2, 0, 3, 0, 1, 0, 11, 57, 217, 43, 80, 206, 183, 0, 17,
+0, 0, 58, 0, 0, 0, 0, 16, 0, 17, 15, 14, 0, 13, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 13, 0, 10, 0, 73, 0, 1, 0, 11,
+105, 218, 181, 86, 191, 86, 0, 12, 0, 1, 0, 12, 0, 0, 0, 0), 18, table.pack(nil, 1, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1, nil,
+nil, 0, 255, 1, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 0, 255, nil, nil, nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 1))),
+--[[?NewTable]], table.pack(34, 73, 45, 163, 163, 163, 163, 163, 34, 33, 63, 73, 34, 216, 54, 95, 69, 34, 132, 63, 64,
+115, 34, 154, 216, 105, 194, 164, 33, 24, 34, 4), 0, --[[?NewTable]], table.pack(0, 46, 0, 5, 6, 7, 8, 9, 0, 436, 0,
+151, 0, 2, 142, 137, 0, 0, 163, 0, 0, 10, 0, 0, 123, 14, 75, 2, 689, 75, 0, 1), table.pack(23, 6, 0, 0, 0, 0, 0, 0,
+19, 2, 2, 5, 1, 7, 9, 225, 0, 19, 382, 9, 0, 0, 13, 0, 37, 220, 24, 111, 1, 0, 9, 0), table.pack(0, 0, 4, 58, 21, 45,
+27, 13, 0, 2, 4, 0, 0, 177, 10, 97, 10, 0, 123, 10, 10, 31, 0, 0, 36, 1, 229, 43, 1, 2, 0, 0), 11, table.pack(nil, 8,
+nil, nil, nil, nil, nil, nil, nil, "rep", nil, " ", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, "string", nil, "byte", "string"))), table.pack(table.pack(nil, 0, 2), table.pack(nil, 1, 2), table.pack(nil, 2,
+2), table.pack(nil, 3, 2), table.pack(nil, 4, 2), table.pack(nil, 5, 2), table.pack(nil, 1, 1)), table.pack(34, 34,
+128, 34, 215, 73, 25, 163, 69, 141, 34, 198, 34, 141, 212, 117, 141, 130, 73, 213, 31, 73, 34, 73, 34, 217, 73, 209,
+153, 220, 220, 34, 48, 34, 48, 34, 220, 83, 177, 98, 204, 101, 68, 20, 220, 220, 34, 34), 0, table.pack(nil, nil, nil,
+nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil,
+nil, 5, nil, nil, nil, nil, 90, nil, 113), table.pack(0, 0, 2, 0, 3, 12, 2, 2, 0, 2, 0, 1, 0, 4, 8, 78, 6, 0, 87, 0,
+0, 12, 0, 49, 0, 98, 70, 2, 4, 0, 0, 0, 34, 0, 32, 0, 0, 53, 86, 44, 18, 233, 11, 222, 0, 0, 0, 0), table.pack(23, 1,
+0, 1, 0, 4, 2, 0, 0, 0, 13, 0, 2, 2, 6, 58, 4, 0, 1, 1, 1, 2, 4, 1, 32, 432, 1, 96, 0, 2, 4, 36, 626, 26, 406, 47, 4,
+99, 133, 185, 204, 148, 4, 68, 4, 4, 32, 7), table.pack(0, 0, 11, 0, 0, 0, 0, 44, 2, 0, 0, 5, 0, 0, 127, 198, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 151, 0, 6, 0, 0, 1, 0, 1, 0, 1, 0, 2, 3, 32, 88, 163, 38, 25, 47, 4, 5, 0, 0), 5, table.pack(nil,
+nil, nil, nil, nil, 1, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 4, nil, nil, 1, nil, 90, nil, nil,
+113)), {})
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:373:
+;(nil)(luraph_runtime2(4, nil --[[ the caller's registers ]], 6))
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:791:             return
+luraph_runtime2(15, nil --[[ the caller's registers ]], 16)
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:1004:
+n17(luraph_runtime2(9, nil --[[ the caller's registers ]], 11))
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:1432:
+v15(luraph_runtime2(9, nil --[[ the caller's registers ]], 11))
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:2591:
+flag(luraph_runtime2(16, nil --[[ the caller's registers ]], 18))
+C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau:2854:
+flag2(luraph_runtime2(11, nil --[[ the caller's registers ]], 13))
+
+
+PS C:\Users\dell i5 10thgen\Desktop\Deobfuscator-Luraph-V15> Get-Content "C:\Users\dell i5 10thgen\Desktop\Quantum Steal An Egg\ChilliLibraryEngine.deob.lua.devirt.luau" | Select-Object -First 250
+-- Luraph runtime function (from the VM object, not part of the script: not lifted).
+-- LPH_ENCFUNC decrypts a function this way: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime1(...)
+        error("Luraph runtime function, not devirtualized")
+end
+
+-- Luraph runtime function (from the VM object, not part of the script: not lifted).
+-- LPH_ENCFUNC decrypts a function this way: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime2(...)
+        error("Luraph runtime function, not devirtualized")
+end
+
+local v = ...
+local v2 = v[1]
+local v3 = v[3]
+local n = 43
+
+while n == 43 do
+        n = 14
+end
+
+local v4 = v[5]
+local n2 = 119
+
+while true do
+        if n2 > 106 then
+                v4 = v[9]
+                n2 = 106
+        elseif n2 < 119 then
+                break
+        end
+end
+
+local n3 = 73
+
+while true do
+        if n3 == 20 then
+                n3 = 99
+        else
+                if n3 == 73 then
+                        n3 = 20
+                        continue
+                end
+
+                if n3 == 99 then
+                        break
+                end
+        end
+end
+
+local v5 = v[5]
+local n4 = 13
+
+while n4 ~= 71 do
+        if n4 == 13 then
+                n4 = 8
+                continue
+        end
+
+        if n4 == 8 then
+                v5 = v[17]
+                n4 = 71
+        end
+end
+
+local n5 = 9
+
+while true do
+        if not (n5 < 84) then
+                if n5 > 9 then
+                        break
+                end
+        else
+                n5 = 84
+        end
+end
+
+local function fn(arg)
+        return (nil)[not arg]
+end
+
+local n6 = 25
+
+while true do
+        if n6 > 25 then
+                if n6 < 51 then
+                        n6 = 51
+                        continue
+                end
+        end
+
+        if n6 > 36 then
+                break
+        end
+
+        if not (n6 < 36) then
+                continue
+        end
+        n6 = 36
+end
+
+local function fn2(arg)
+        local flag = upv0
+        local v6 = nil
+
+        while true do
+                local v7
+
+                if S_1 <= 0 then
+                        if A_1 >= e_1 then
+                                v7 = A_1
+
+                                while true do
+                                        if v7 <= 25 then
+                                                v6 = arg
+                                                local exitTo = nil
+
+                                                while true do
+                                                        if S_1 <= 0 then
+                                                                exitTo = 1
+                                                                break
+                                                        else
+                                                                if A_1 <= e_1 then
+                                                                        v7 = A_1
+
+                                                                        if v7 <= 25 then
+                                                                                v6 = arg
+                                                                        elseif v7 > 120 then
+                                                                                flag = not flag
+                                                                        else
+                                                                                flag = flag[v6]
+                                                                        end
+
+                                                                        continue
+                                                                end
+
+                                                                break
+                                                        end
+                                                end
+
+                                                if exitTo == 1 then
+                                                        if A_1 >= e_1 then
+                                                                v7 = A_1
+                                                                continue
+                                                        end
+                                                end
+
+                                                break
+                                        else
+                                                if v7 > 120 then
+                                                        flag = not flag
+                                                        local exitTo2 = nil
+
+                                                        while true do
+                                                                if S_1 <= 0 then
+                                                                        exitTo2 = 1
+                                                                        break
+                                                                else
+                                                                        if A_1 <= e_1 then
+                                                                                v7 = A_1
+
+                                                                                if v7 <= 25 then
+                                                                                        v6 = arg
+                                                                                elseif v7 > 120 then
+                                                                                        flag = not flag
+                                                                                else
+                                                                                        flag = flag[v6]
+                                                                                end
+
+                                                                                continue
+                                                                        end
+
+                                                                        break
+                                                                end
+                                                        end
+
+                                                        if exitTo2 == 1 then
+                                                                if A_1 >= e_1 then
+                                                                        v7 = A_1
+                                                                        continue
+                                                                end
+                                                        end
+                                                else
+                                                        flag = flag[v6]
+                                                        local exitTo3 = nil
+
+                                                        while true do
+                                                                if S_1 <= 0 then
+                                                                        exitTo3 = 1
+                                                                        break
+                                                                else
+                                                                        if A_1 <= e_1 then
+                                                                                v7 = A_1
+
+                                                                                if v7 <= 25 then
+                                                                                        v6 = arg
+                                                                                elseif v7 > 120 then
+                                                                                        flag = not flag
+                                                                                else
+                                                                                        flag = flag[v6]
+                                                                                end
+
+                                                                                continue
+                                                                        end
+
+                                                                        break
+                                                                end
+                                                        end
+
+                                                        if exitTo3 == 1 then
+                                                                if A_1 >= e_1 then
+                                                                        v7 = A_1
+                                                                        continue
+                                                                end
+                                                        end
+                                                end
+
+                                                break
+                                        end
+                                end
+                        end
+
+                        return flag
+                else
+                        if A_1 <= e_1 then
+                                v7 = A_1
+
+                                if v7 <= 25 then
+                                        v6 = arg
+                                elseif v7 > 120 then
+                                        flag = not flag
+                                else
+                                        flag = flag[v6]
+                                end
+
+                                continue
+                        end
+
+                        break
+                end
+        end
+
+        return flag
+end
+
+local n7 = 97
+
+while n7 > 59 do
+        if n7 <= 76 then
+                n7 = 59
+PS C:\Users\dell i5 10thgen\Desktop\Deobfuscator-Luraph-V15>
